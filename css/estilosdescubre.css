@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+html{
+	background-image: url("../index-assets/Body.jpg")
+}
+
+#wrapper {
+	width: 1366px;
+	height: 1654;
+}
+
+#wrapper header h1 figure img {
+    position: absolute;
+    left: 16px;
+    top: 4px;
+    width: 84px;
+    height: 85px;
+    z-index: 20;
+}
+
+#wrapper header nav ul {
+    list-style-type: none;
+}
+
+#wrapper header nav ul li {
+    display: inline;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    margin-left: 150px;
+    line-height: 20px;
+}
+
+a:hover {
+	color: teal;
+}
+
+
+#wrapper header nav {
+	background-color: rgb(32, 100, 174);
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+    top: 91px;
+    width: 1368px;
+    height: 56px;
+    z-index: -1;
+}
+
+
+#wrapper #cuerpo {
+    background-image: url("../Descubre-assets/Contenido.png");
+    width: 1366px;
+    height: 1356px;
+    margin-top: 185px;
+}
+
+#footer {
+    background-image: url("../index-assets/Footer.jpg");
+    position: absolute;
+    left: -5px;
+    top: 1562px;
+    width: 1374px;
+    height: 66px;
+    z-index: 4;
+}
